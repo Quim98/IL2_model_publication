@@ -1,0 +1,32 @@
+name: IL-2 model
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10.9
+  - numpy
+  - pandas
+  - scipy
+  - sympy
+  - scikit-learn
+  - scanpy
+  - decoupler
+  - glasbey
+  - anndata
+  - matplotlib
+  - statsmodels
+  - leidenalg
+  - scgen
+  - seaborn
+  - gseapy
+  - pysb
+  - pyabc
+  - cython
+  - seaborn
+  - r-base
+  - r-seurat
+  - r-edger
+  - r-limma
+  - r-dplyr
+  - r-reshape2
+  - r-data.table
