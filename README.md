@@ -8,7 +8,7 @@ It combines gene-specific RNA-to-protein abundance estimation, mechanistic model
 
 **Preprint:**  
 **Code:** https://github.com/Quim98/IL2_model_publication  
-**Processed data and simulation outputs:**
+**Processed data and simulation outputs:** https://doi.org/10.5281/zenodo.23863356
 
 ---
 
@@ -103,7 +103,7 @@ cd IL2_model_publication
 
 Download the archive associated with:
 
-**x**
+**https://doi.org/10.5281/zenodo.23863356**
 
 Extract its contents directly into the repository root. After extraction, the repository should contain at least:
 
@@ -217,7 +217,7 @@ The model is used to explore receptor-binding changes that favor signaling in ta
 ## Data availability
 
 - **Analysis and simulation code:** https://github.com/Quim98/IL2_model_publication
-- **Processed experimental data, model initial conditions, inference outputs, and simulations:**  Zenodo, 
+- **Processed experimental data, model initial conditions, inference outputs, and simulations:**  Zenodo, https://doi.org/10.5281/zenodo.23863356
 - External published datasets used in individual analyses are described and cited in the manuscript and within the corresponding analysis notebooks.
 
 ## Issues
