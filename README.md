@@ -6,8 +6,8 @@ This repository contains the computational code used in the manuscript:
 
 It combines gene-specific RNA-to-protein abundance estimation, mechanistic models of IL-2 signaling, approximate Bayesian computation–sequential Monte Carlo (ABC-SMC) parameter inference, dose-response simulations, and in vivo analyses of immune cells and melanoma tumor microenvironments.
 
-**Preprint:** 
-**Code:** https://github.com/Quim98/IL2_model_publication
+**Preprint:**  
+**Code:** https://github.com/Quim98/IL2_model_publication  
 **Processed data and simulation outputs:**
 
 ---
