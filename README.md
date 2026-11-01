@@ -194,7 +194,6 @@ BEMPEG (bempegaldesleukin) is analyzed through its active **1-PEG-IL-2 and 2-PEG
 - [`scGen_model_training.py`](scGen_model_training.py) — trains an scGen model for batch correction of melanoma single-cell RNA-seq datasets.
 - [`BEMPEG_datasets.ipynb`](BEMPEG_datasets.ipynb) — integrates melanoma datasets, estimates tumor concentrations of active BEMPEG species, examines CD8⁺ T-cell and Treg subpopulations, and produces UMAP and related dataset visualizations.
 - [`BEMPEG_sim_tumor.py`](BEMPEG_sim_tumor.py) — predicts responses to 1-PEG-IL-2 and 2-PEG-IL-2 across cell populations in metastatic melanoma.
-- [`BEMPEG_sim_tumor_optimized.py`](BEMPEG_sim_tumor_optimized.py) — simulates the model-optimized IL-2 variant across the same tumor-microenvironment context.
 - [`Plots_BEMPEG.ipynb`](Plots_BEMPEG.ipynb) — generates the BEMPEG dose-response and tumor-microenvironment analysis plots, including comparisons with the optimized variant.
 
 **Typical inputs:** `data/ABC_SMC/BEMPEG_trials/`, `data/expression/melanoma/`, `data/lin_models/`, and BEMPEG-specific fitted parameter tables.
@@ -207,6 +206,7 @@ The model is used to explore receptor-binding changes that favor signaling in ta
 
 - [`exec_slopiness_target.py`](exec_slopiness_target.py) — evaluates the sensitivity of the target-versus-non-target response to IL-2 receptor-binding parameters.
 - [`pyabc_mutant_search.py`](pyabc_mutant_search.py) — uses ABC-SMC to search for receptor-binding parameter combinations that enhance target-cell selectivity.
+- [`BEMPEG_sim_tumor_optimized.py`](BEMPEG_sim_tumor_optimized.py) — simulates the model-optimized IL-2 variant across the same tumor-microenvironment context.
 - [`IL2_mutants.ipynb`](IL2_mutants.ipynb) — analyzes and plots experimentally tested IL-2 mutants, including variants designed to enhance IL-2Rγ binding.
 - [`Plot_ABC_SMC.ipynb`](Plot_ABC_SMC.ipynb) — additionally visualizes inferred parameter distributions from the mutant search.
 
